@@ -11,14 +11,7 @@
         android:id="@+id/mainActivityTabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:translationZ="2dp"
-        app:tabGravity="fill"
-        app:tabIndicatorColor="#ff00ff"
-        app:tabMode="fixed"
-        app:tabSelectedTextColor="#ffffff"
-        app:tabTextColor="#d3d3d3" />
+        app:tabMode="scrollable" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/mainActivityViewPager"
