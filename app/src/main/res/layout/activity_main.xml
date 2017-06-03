@@ -7,13 +7,13 @@
     tools:context="com.example.ammaryasser.portsaidtourguide.MainActivity">
 
     <android.support.design.widget.TabLayout
-        android:id="@+id/MainActivityTabs"
+        android:id="@+id/mainActivityTabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:tabMode="fixed"/>
 
     <android.support.v4.view.ViewPager
-        android:id="@+id/MainActivityViewPager"
+        android:id="@+id/mainActivityViewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
