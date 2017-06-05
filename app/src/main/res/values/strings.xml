@@ -1,6 +1,30 @@
 <resources>
     <string name="app_name">Portsaid Tour Guide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lighthouse">Port Said Lighthouse</string>
+    <string name="lighthouse_description">The Port Said Lighthouse is one of the most important
+        architectural and tourist landmarks in the city of Port Said in Egypt.</string>
+    <string name="museum">Port Said Military Museum</string>
+    <string name="museum_description">The Port Said National Museum consists of a one floor building
+        and it hosts some of the spoils the Egyptian forces were able to gather from the Israelis 
+        in the War of the 6th of October.</string>
+    <string name="pizza_pino">Pizza Pino</string>
+    <string name="pizza_pino_description">Wonderful place to have coffee, meals, quick meal and cozy
+        place with friendly service staff</string>
+    <string name="pizza_hut">Pizza Hut</string>
+    <string name="pizza_hut_description">Family-friendly chain known for its made-to-order
+        pizzas.</string>
+    <string name="doaiah_beach">Doaiah Beach</string>
+    <string name="doaiah_beach_description">Unique Private Beach For You and Your Family very safe
+        for Your kids Kite surfing and Windsurf Courses available, Single and Double Kayaks, all 
+        Water Sports available and Beach Volley Ball Court Enjoy Your Special Food Cousin</string>
+    <string name="resta_port_said">Resta Port said</string>
+    <string name="resta_port_said_description">Overlooking a cruise ship port on the Mediterranean
+        shore, this understated hotel is a 7-minute walk from the Museum of Modern Art and a
+        12-minute walk from the iconic Lighthouse of Port Said.</string>
+    <string name="karawan_cinema">Karawan Cinema</string>
+    <string name="karawan_cinema_description">Best cinema in port said</string>
+    <string name="culture_entertainment_center">Culture Entertainment Center</string>
+    <string name="culture_entertainment_center_description"> Port said biggest entertainment
+        center </string>
 </resources>

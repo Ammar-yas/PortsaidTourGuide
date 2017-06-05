@@ -3,8 +3,8 @@ package com.example.ammaryasser.portsaidtourguide;
 
 public class Card {
 
-    private String placeName;
-    private String placeDescription;
+    private int placeName;
+    private int placeDescription;
     private int placeOpenTime;
     private int placeCloseTime;
     private int placeImageRId;
@@ -22,7 +22,7 @@ public class Card {
      * @param placeImageRId    is used to set the image for the place in the card
      */
 
-    public Card(String placeName, String placeDescription, int placeOpenTime, int placeCloseTime,
+    public Card(int placeName, int placeDescription, int placeOpenTime, int placeCloseTime,
                 int placeImageRId) {
         this.placeName = placeName;
         this.placeDescription = placeDescription;
@@ -31,19 +31,19 @@ public class Card {
         this.placeImageRId = placeImageRId;
     }
 
-    public String getPlaceName() {
+    public int getPlaceName() {
         return placeName;
     }
 
-    public void setPlaceName(String placeName) {
+    public void setPlaceName(int placeName) {
         this.placeName = placeName;
     }
 
-    public String getPlaceDescription() {
+    public int getPlaceDescription() {
         return placeDescription;
     }
 
-    public void setPlaceDescription(String placeDescription) {
+    public void setPlaceDescription(int placeDescription) {
         this.placeDescription = placeDescription;
     }
 

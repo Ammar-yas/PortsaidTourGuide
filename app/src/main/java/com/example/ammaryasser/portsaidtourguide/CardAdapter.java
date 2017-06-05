@@ -28,6 +28,7 @@ public class CardAdapter extends ArrayAdapter<Card> {
             cardView = LayoutInflater.from(getContext()).inflate(R.layout.card_view, parent, false);
         }
 
+
         Card card = getItem(position);
         ImageView image = (ImageView) cardView.findViewById(R.id.image);
         TextView title = (TextView) cardView.findViewById(R.id.title);
@@ -35,9 +36,9 @@ public class CardAdapter extends ArrayAdapter<Card> {
         TextView openHours = (TextView) cardView.findViewById(R.id.openHours);
 
         image.setImageResource(card.getPlaceImageRId());
-        title.setText(card.getPlaceName());
-        description.setText(card.getPlaceDescription());
-        openHours.setText("Open from" + card.getPlaceOpenTime() + "to" + card.getClass());
+        title.setText(getContext().getString(card.getPlaceName()));
+        description.setText(getContext().getString(card.getPlaceDescription()));
+        openHours.setText("Open from " + card.getPlaceOpenTime() + " to " + card.getPlaceCloseTime());
 
         return cardView;
     }
