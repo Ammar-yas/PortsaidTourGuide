@@ -1,7 +1,5 @@
 package com.example.ammaryasser.portsaidtourguide;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -35,6 +33,5 @@ public class RelaxFragment extends Fragment {
         ListView listView = (ListView) getView().findViewById(R.id.relaxListView);
         listView.setAdapter(cardAdapter);
     }
-
 
 }

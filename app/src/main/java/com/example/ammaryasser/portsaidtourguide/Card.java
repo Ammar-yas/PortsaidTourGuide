@@ -1,6 +1,5 @@
 package com.example.ammaryasser.portsaidtourguide;
 
-
 public class Card {
 
     private int placeName;

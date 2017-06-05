@@ -29,7 +29,6 @@ public class RestaurantsFragment extends Fragment {
         cards.add(new Card(R.string.pizza_pino, R.string.pizza_pino_description, 9, 22,
                 R.drawable.pizza_pino));
 
-
         CardAdapter cardAdapter = new CardAdapter(getContext(), cards);
         ListView listView = (ListView) getView().findViewById(R.id.restaurantsListView);
         listView.setAdapter(cardAdapter);

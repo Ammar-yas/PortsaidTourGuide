@@ -1,7 +1,5 @@
 package com.example.ammaryasser.portsaidtourguide;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -29,8 +27,6 @@ public class AttractionsFragment extends Fragment {
                 R.drawable.light_house));
         cards.add(new Card(R.string.museum, R.string.museum_description, 9, 22,
                 R.drawable.museum));
-
-
         CardAdapter cardAdapter = new CardAdapter(getContext(), cards);
         ListView listView = (ListView) getView().findViewById(R.id.attractionsListView);
         listView.setAdapter(cardAdapter);

@@ -28,7 +28,6 @@ public class CardAdapter extends ArrayAdapter<Card> {
             cardView = LayoutInflater.from(getContext()).inflate(R.layout.card_view, parent, false);
         }
 
-
         Card card = getItem(position);
         ImageView image = (ImageView) cardView.findViewById(R.id.image);
         TextView title = (TextView) cardView.findViewById(R.id.title);
