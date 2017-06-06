@@ -34,40 +34,21 @@ public class Card {
         return placeName;
     }
 
-    public void setPlaceName(int placeName) {
-        this.placeName = placeName;
-    }
-
     public int getPlaceDescription() {
         return placeDescription;
-    }
-
-    public void setPlaceDescription(int placeDescription) {
-        this.placeDescription = placeDescription;
     }
 
     public int getPlaceOpenTime() {
         return placeOpenTime;
     }
 
-    public void setPlaceOpenTime(int placeOpenTime) {
-        this.placeOpenTime = placeOpenTime;
-    }
-
     public int getPlaceCloseTime() {
         return placeCloseTime;
-    }
-
-    public void setPlaceCloseTime(int placeCloseTime) {
-        this.placeCloseTime = placeCloseTime;
     }
 
     public int getPlaceImageRId() {
         return placeImageRId;
     }
 
-    public void setPlaceImageRId(int placeImageRId) {
-        this.placeImageRId = placeImageRId;
-    }
 }
 

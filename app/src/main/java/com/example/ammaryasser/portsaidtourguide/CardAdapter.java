@@ -37,7 +37,8 @@ public class CardAdapter extends ArrayAdapter<Card> {
         image.setImageResource(card.getPlaceImageRId());
         title.setText(getContext().getString(card.getPlaceName()));
         description.setText(getContext().getString(card.getPlaceDescription()));
-        openHours.setText("Open from " + card.getPlaceOpenTime() + " to " + card.getPlaceCloseTime());
+        openHours.setText(getContext().getString(R.string.hours_formatter, card.getPlaceOpenTime(),
+                card.getPlaceCloseTime()));
 
         return cardView;
     }

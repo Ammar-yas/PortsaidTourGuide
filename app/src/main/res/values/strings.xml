@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Portsaid Tour Guide</string>
 
+    <string name="attractions">Attraction</string>
+    <string name="relax">Relax</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="entertain">Entertain</string>
+    <string name="hours_formatter">Open from %1$d to %2$d</string>
+
     <string name="lighthouse">Port Said Lighthouse</string>
     <string name="lighthouse_description">The Port Said Lighthouse is one of the most important
         architectural and tourist landmarks in the city of Port Said in Egypt.</string>
@@ -27,4 +33,5 @@
     <string name="culture_entertainment_center">Culture Entertainment Center</string>
     <string name="culture_entertainment_center_description"> Port said biggest entertainment
         center </string>
+
 </resources>
